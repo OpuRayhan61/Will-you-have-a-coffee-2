@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+}
+h1 {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    color: #d32f2f;
+  }
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 3em;
+    color: #d32f2f;
+}
+.gif_container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gif_container img {
+    /* width: 100%;  */
+    max-width: 200px; 
+    height: auto; 
+}
